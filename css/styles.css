@@ -16,11 +16,13 @@ ol {
     list-style-type: none;
 }
 
-h1 {
+.main-title {
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07em;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 h2,
@@ -28,16 +30,47 @@ h3 {
     color: #2E2F42;
 }
 
-h2 {
+.strategy-main-title,
+.team-main-title,
+.portfolio-main-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1em;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 h3 {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.7em;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.strategy-title,
+.portfolio-project {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.strategy-description,
+.team-card-job,
+.portfolio-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-card-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 p {
@@ -53,11 +86,12 @@ button {
 
 .main-logo,
 .bottom-logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.1em;
+    line-height: 1.17;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .main-logo {
@@ -85,7 +119,9 @@ button {
 }
 
 .main-nav a:hover,
-.contacts a:hover {
+.contacts a:hover,
+.main-nav a:focus,
+.contacts a:focus {
     color: #404BBF;
 }
 
@@ -101,9 +137,12 @@ button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-.solutions-order:hover {
+.solutions-order:hover,
+.solutions-order:focus {
     background-color: #404BBF;
 }
 
@@ -121,4 +160,6 @@ footer {
 
 .bottom-description {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
