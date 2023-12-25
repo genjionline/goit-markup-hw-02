@@ -95,19 +95,19 @@ button {
 }
 
 .main-logo {
-    color: #2E2F42;
+    color: #4d5ae5;
 }
 
-.main-logo-web {
-    color: #4D5AE5;
+.main-logo-studio {
+    color: #2e2f42;
 }
 
 .bottom-logo {
-    color: #F4F4FD;
+    color: #4D5AE5;
 }
 
-.bottom-logo-web {
-    color: #4D5AE5;
+.bottom-logo-studio {
+    color: #F4F4FD;
 }
 
 .main-nav {
@@ -118,10 +118,10 @@ button {
     font-style: normal;
 }
 
-.main-nav a:hover,
-.contacts a:hover,
-.main-nav a:focus,
-.contacts a:focus {
+.main-nav-item:hover,
+.contacts-link:hover,
+.main-nav-item:focus,
+.contacts-link:focus {
     color: #404BBF;
 }
 
