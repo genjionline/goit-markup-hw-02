@@ -41,13 +41,6 @@ h3 {
     text-transform: capitalize;
 }
 
-h3 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
 .strategy-title,
 .portfolio-project {
     font-size: 20px;
@@ -125,7 +118,11 @@ button {
     color: #404BBF;
 }
 
-.main-nav a:active {
+.main-nav-item {
+    color: #2E2F42;
+}
+
+.main-nav-item:active {
     text-decoration: underline;
 }
 
